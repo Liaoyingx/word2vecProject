@@ -25,7 +25,7 @@
 - 索引到词映射字典 idx2word
 
 ### 4. 依赖文件
-**requirements.txt**
+**requirement.txt**
 项目运行所需第三方库：
 - numpy：矩阵运算、模型参数初始化
 - matplotlib：词向量分布图绘制
@@ -33,9 +33,3 @@
 - jieba：中文自动分词
 
 ---
-
-## 环境配置（Conda）
-```bash
-conda create -n word2vec python=3.11 -y
-conda activate word2vec
-pip install -r requirements.txt
